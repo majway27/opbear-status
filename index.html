@@ -1,76 +1,188 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: page
+title: Spin Tires!
+subtitle: The RV/Trailer owner's best friend, "Optimistic Bearings".
+use-site-title: true
+---
 
-<head>
+<div class="col-sm-12 align-self-center spacer-top">
+  <h4>For All:</h4>
+</div>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-briefcase greentint" aria-hidden="true"></i>
+    Packing
+  </h3>
+  <ul>
+    <li>Prebuilt helper lists, battle tested</li>
+    <li>Create and reuse custom lists</li>
+    <li>Community voted lists</li>
+    <li>Cargo weight tracker</li>
+  </ul>
+</div>
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-wrench greentint" aria-hidden="true"></i>
+    Wrenching
+  </h3>
+  <ul>
+    <li>Maintenance schedules used by real owners</li>
+    <li>Troubleshooting guides with photos and gotchas</li>
+    <li>Customizations and Upgrades worth every penny</li>
+  </ul>
+</div>
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-road greentint" aria-hidden="true"></i>
+    Traveling
+  </h3>
+  <ul>
+    <li>Trip Planning</li>
+    <li>Shared Great Campground Experiences</li>
+    <li>Shared Trip Journals</li>
+    <li>Boondocking tools</li>
+  </ul>
+</div>
 
-    <title>Optimistic Bearings - The RV Owner's Best Friend!</title>
+<div class="col-sm-12 align-self-center">
+  <h4>For New and Potential Owners:</h4>
+</div>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-credit-card greentint" aria-hidden="true"></i>
+    Buying
+  </h3>
+  <ul>
+    <li>Picking the right one</li>
+    <li>Walkthrough of dealership experience</li>
+    <li>Savvy Shopper tips with photos</li>
+    <li>Helpful gear reviews</li>
+  </ul>
+</div>
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-sitemap greentint" aria-hidden="true"></i>
+    Run Cards
+  </h3>
+  <ul>
+    <li>Basic How-Tos for the newbie</li>
+    <li>Demystfying onboard systems, with color diagrams</li>
+    <li>Operational checklists that will save you from that "oops" moment</li>
+  </ul>
+</div>
+<div class="col-sm-4 feature-card">
+  <h3>
+    <i class="fa fa-graduation-cap greentint" aria-hidden="true"></i>
+    Live Simulator
+  </h3>
+  <ul>
+    <li>Try before you buy</li>
+    <li>Reduce learning curve for new owners</li>
+    <li>Built on state of the art 3d gaming technology, runs on your phone!</li>
+  </ul>
+</div>
 
-    <!-- Custom styles for this template -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+<div class="col-sm-12 align-self-center">
+  <h6>*Check <a href="{% link roadmap.md %}">Roadmap</a> for current progress.</h6>
+</div>
 
-</head>
+<div class="col-sm-12 align-self-center feature-card spacer-top">
+  
+  <h3>
+    <i class="fa fa-question-circle greentint" aria-hidden="true"></i>
+    Frequently Asked Questions:
+  </h3>
+  <ul>
+    <li>
+      <a href="{% link pricing.md %}">Pricing?</a> There is a no-obligation free tier and a full-featured paid tier.  
+      <ul>
+        <li>All revenue after our low operational costs will go to the <span class="label label-primary">Humane Society.</span></li>  
+        <li>This app is built by volunteers in our free time and is not VC funded.</li>
+      </ul>
+    </li>
+    <li>
+      <a href="{% link aboutme.md %}">Misson Statement?</a> A site by RV/Trailer owner-operators. <i class="fa fa-heart greentint" aria-hidden="true"></i>  
+      <ul>
+        <li>Reduce learning curve for new owners.</li>  
+        <li> Build cool tools for old owners.</li>
+      </ul>
+    </li>
+    <li>
+      <a href="{% link reviews.md %}">Real folks use this app?</a> Yes
+      <ul>
+        <li>It is a work in progress.  News and updates will be posted below.</li>  
+        <li>Follow the link for reviews anyone has been kind enough to provide us.</li>
+      </ul>
+    </li>
+    <li><a href="{% link reviews.md %}">Are you going to sell my email address?</a> No - We are serious about data privacy.</li>
+    <li><a href="https://app.optimisticbearings.majway.com/signup">Let's Try It!</a> Go for it!</li>
+  </ul>
+</div>
 
-<body>
+<div class="col-sm-12 posts-list spacer-big-top">
+  {% for post in paginator.posts %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-    <div id="wrapper">
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="index.html">
-                        Optimistic Bearings
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html">News</a>
-                </li>
-                <li>
-                    <a href="roadmap.html">Roadmap</a>
-                </li>
-                <li>
-                    <a href="mission.html">Mission</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <h1>Optimistic Bearings - The RV Owner's Best Friend!</h1>
-                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
-                <a href="https://app.optimisticbearings.majway.com" class="btn btn-secondary">Sign In</a>
-                <hr/>
-                <h2>News</h2>
-                <p>December 21 - Starting this status site to announce progress.</p>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
+      </div>
     </div>
-    <!-- /#wrapper -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
 
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+   </article>
+  {% endfor %}
+</div>
 
-</body>
-
-</html>
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
