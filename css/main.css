@@ -775,3 +775,8 @@ td.gutter {
 .label-primary {
   background-color: #40492C;
 }
+
+.call-to-action {
+  text-align: center;
+  padding: 10px;
+}
