@@ -780,3 +780,10 @@ td.gutter {
   text-align: center;
   padding: 10px;
 }
+
+.text-danger {
+  color: #b94a48; /* Sienna */
+}
+a.text-danger:hover {
+  color: #843534;
+}

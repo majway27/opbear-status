@@ -10,27 +10,28 @@ subtitle: Our free and paid features.
     <li>This app is built by volunteers in our free time and is not VC funded.</li>
 </ul>
 
-Feature   | Free                                                                    | Paid <span class="label label-primary">$7/year.</span>
--------   | -------------------------------------                                   | --------            
-Packing   |	Prebuilt helper lists, battle tested 	                                | Available
-Packing	  |	 	                                                                    | Community voted lists
-Packing	  |	 	                                                                    | Cargo weight tracker
-Wrenching |	Maintenance schedules used by real owners 	                            | Available
-Wrenching |	                                                  	                    | Troubleshooting guides with photos and gotchas
-Wrenching |	                                                                        | Customizations and Upgrades worth every penny
-Traveling |	Trip Planning 	                                                        | Available
-Traveling |	                                     	                                | Shared Great Campground Experiences
-Traveling |                      	                                                | Shared Trip Journals
-Traveling |	                 	                                                    | Boondocking tools
-Buying	  |	Picking the right one 	                                                | Available
+Feature   | Free                                                                  | Paid <span class="label label-primary">$7/year.</span>
+-------   | -------------------------------------                                 | --------            
+Setup     |	Packing helpers                          	                            | Available
+Setup     |	Custom lists                                                          | Available
+Setup	    |	 	                                                                    | Community sourced
+Setup	    |	 	                                                                    | Weight tracker
+Upkeep    |	Maintenance                                	                          | Available
+Upkeep    |	                                                  	                  | Troubleshooting
+Upkeep    |	                                                                      | Customizations
+Travel    |	Planning       	                                                      | Available
+Travel    |	                                     	                                | Campground Experiences
+Travel    |                      	                                                | Journals
+Travel    |	                 	                                                    | Boondocking
+Buying	  |	Picking the right one 	                                              | Available
 Buying	  |	Walkthrough of dealership experience 	                                | Available
-Buying	  |	                                   	                                    | Savvy Shopper tips with photos
+Buying	  |	                                   	                                  | Savvy Shopper tips with photos
 Buying	  |	                     	                                                | Helpful gear reviews
 Buying	  |	                         	                                            | Negotiating-Pricing Tool
 SmartCards|	Basic How-Tos for the newbie 	                                        | Available
 SmartCards|	                                                 	                    | Demystfying onboard systems, with color diagrams
-SmartCards|	Operational checklists that will save you from that "oops" moment 	    | August 2018
-SmartCards|	                           	                                            | Major System Deep Dive
+SmartCards|	Operational checklists that will save you from that "oops" moment 	  | August 2018
+SmartCards|	                           	                                          | Major System Deep Dive
 Simulator |	             	                                                        | Live Simulator
 
 <div class="col-sm-12 align-self-center feature-card spacer-top call-to-action">
