@@ -30,7 +30,8 @@ Shop	    |	                     	                                               
 Shop	    |	                         	                                            | Negotiating
 SmartCards|	How-Tos                                                               | Available
 SmartCards|	                                                 	                    | Demystfying
-SmartCards|	Checklists                                                            | Available
+SmartCards|	Checklists                                                            | August 2018
+SmartCards|	                           	                                          | Major System Deep Dive
 Simulator |	             	                                                        | Simulator
 
 <div class="col-sm-12 align-self-center feature-card spacer-top call-to-action">

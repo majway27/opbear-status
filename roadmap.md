@@ -10,24 +10,24 @@ Setup     |	Packing helpers                          	                          
 Setup     |	Custom lists                   	                                        | February 2018
 Upkeep    |	Maintenance                                	                            | February 2018
 Travel    |	Planning       	                                                        | March 2018
-Buying	  |	Picking the right one 	                                                | April 2018
-SmartCards|	Basic How-Tos for the newbie 	                                          | May 2018
+Shop	    |	Choosing               	                                                | April 2018
+SmartCards|	How-Tos                      	                                          | May 2018
 Milestone |	Open Beta 	                                                            | June 2018
-Buying	  |	Walkthrough of dealership experience 	                                  | July 2018
-SmartCards|	Operational checklists that will save you from that "oops" moment 	    | August 2018
+Shop	    |	Dealership                           	                                  | July 2018
+SmartCards|	Checklists                                                         	    | August 2018
 Upkeep    |	Troubleshooting                                 	                      | September 2018
 Travel    | Journals 	                                                              | October 2018
-Buying	  |	Savvy Shopper tips with photos   	                                      | November 2018
-SmartCards|	Demystfying onboard systems, with color diagrams 	                      | December 2018
-Simulator |	Live Simulator 	                                                        | January 2019
+Shop	    |	Savvy shopper                    	                                      | November 2018
+SmartCards|	Demystfying                                      	                      | December 2018
+Simulator |	Simulator      	                                                        | January 2019
 Setup	    |	Weight tracker                                                          | February 2019
 Upkeep    |	Customizations                                                          | March 2019
 Travel    |	Campground Experiences               	                                  | April 2019
-Buying	  |	Helpful gear reviews 	                                                  | May 2019
-SmartCards|	Major System Deep Dive   	                                              | June 2019
+Shop	    |	Gear                 	                                                  | May 2019
+-         |	-                        	                                              | June 2019
 Setup	    |	Community sourced                                                       | July 2019
 Travel    |	Boondocking       	                                                    | August 2019
-Buying	  |	Negotiating-Pricing Tool 	                                              | September 2019
+Shop	    |	Negotiating              	                                              | September 2019
 -	        | -		                                                                    | October 2019
 -         |	-                    	                                                  | November 2019
 -         | -	                                                                      | December 2019
