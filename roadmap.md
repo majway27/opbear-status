@@ -19,7 +19,7 @@ Upkeep    |	Troubleshooting                                 	                   
 Travel    | Journals 	                                                              | October 2018
 Shop	    |	Savvy shopper                    	                                      | November 2018
 SmartCards|	Demystfying                                      	                      | December 2018
-Simulator |	Simulator      	                                                        | January 2019
+Upkeep    |	Storage       	                                                        | January 2019
 Setup	    |	Weight tracker                                                          | February 2019
 Upkeep    |	Customizations                                                          | March 2019
 Travel    |	Campground Experiences               	                                  | April 2019
@@ -30,10 +30,9 @@ Travel    |	Boondocking       	                                                 
 Shop	    |	Negotiating              	                                              | September 2019
 -	        | -		                                                                    | October 2019
 -         |	-                    	                                                  | November 2019
--         | -	                                                                      | December 2019
+Simulator | Simulator                                                               | December 2019
 Milestone | Go Live!                                                              	| January 2020
 
 <div class="col-sm-12 align-self-center feature-card spacer-top call-to-action">
-  Ready?
-  <a href="https://app.optimisticbearings.majway.com/signup">Go for it!</a>
+  <a href="https://app.optimisticbearings.majway.com/signup" class="btn btn-success">Go for it!</a>
 </div>

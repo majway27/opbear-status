@@ -18,6 +18,7 @@ Setup	    |	 	                                                                  
 Setup	    |	 	                                                                    | Weight tracker
 Upkeep    |	Maintenance                                	                          | Available
 Upkeep    |	                                                  	                  | Troubleshooting
+Upkeep    |	                                                  	                  | Storage
 Upkeep    |	                                                                      | Customizations
 Travel    |	Planning       	                                                      | Available
 Travel    |	                                     	                                | Campground Experiences
@@ -34,6 +35,5 @@ SmartCards|	Checklists                                                          
 Simulator |	             	                                                        | Simulator
 
 <div class="col-sm-12 align-self-center feature-card spacer-top call-to-action">
-  Ready?
-  <a href="https://app.optimisticbearings.majway.com/signup">Go for it!</a>
+  <a href="https://app.optimisticbearings.majway.com/signup" class="btn btn-success">Go for it!</a>
 </div>
