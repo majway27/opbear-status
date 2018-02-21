@@ -7,7 +7,7 @@ subtitle: Planned Delivery of Optimistic Bearing Features
 Category  | Feature Title                                                           | Target Date 
 -------   | -------------------------------------                                   | --------            
 Setup     |	Packing helpers                          	                              | January 2018
-Setup     |	Custom lists                   	                                        | February 2018
+Setup     |	Custom lists                   	                                        | Live
 Upkeep    |	Maintenance                                	                            | February 2018
 Travel    |	Planning       	                                                        | March 2018
 Shop	    |	Choosing               	                                                | April 2018
